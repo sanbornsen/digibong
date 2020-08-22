@@ -2081,6 +2081,17 @@ ul.icons {
   }
 }
 
+.contact-nav {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media screen and (max-width: 480px) {
+  .contact-nav {
+    bottom: 3%;
+  }
+}
+
 .service-nav {
   position: absolute;
   top: 0;
@@ -2857,3 +2868,81 @@ body.is-menu-visible #menu {
   transform: translateX(0);
   box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
   visibility: visible; }
+
+
+.analytics-icon {
+  height: 126px;
+  width: 100%;
+  margin-bottom: 20px;
+  background: url('./../../images/analytics.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.video-icon {
+  height: 126px;
+  width: 100%;
+  margin-bottom: 20px;
+  background: url('./../../images/video.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.internet-icon {
+  height: 126px;
+  width: 100%;
+  margin-bottom: 20px;
+  background: url('./../../images/internet.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.social-icon {
+  height: 126px;
+  width: 100%;
+  margin-bottom: 20px;
+  background: url('./../../images/social.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.campaign-icon {
+  height: 126px;
+  width: 100%;
+  margin-bottom: 20px;
+  background: url('./../../images/campaign.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.content-icon {
+  height: 126px;
+  width: 100%;
+  margin-bottom: 20px;
+  background: url('./../../images/content.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  width: 300px;
+  margin: auto;
+}
+
+.nav-logo {
+  height: 35px;
+  margin-top: 6px;
+  margin-top: 18px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .logo {
+    width: 175px;
+  }
+
+  .nav-logo {
+    height: 30px;
+    margin-top: 18px;
+  }
+}
